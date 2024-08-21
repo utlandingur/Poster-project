@@ -590,6 +590,20 @@ video {
   height: 100vh;
 }
 
+.h-svh {
+  height: 100svh;
+}
+
+.max-h-max {
+  max-height: -moz-max-content;
+  max-height: max-content;
+}
+
+.max-h-fit {
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+}
+
 .w-auto {
   width: auto;
 }
